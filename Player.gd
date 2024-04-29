@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-signal size_changed(new_size: String)
+signal size_changed(new_size)
 
 const SPEED = 300.0
 const JUMP_VELOCITY = -400.0
